@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <IsPackable>false</IsPackable>
+        <IsTestProject>true</IsTestProject>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageId>Pulsar.Blinkenlights.Bspline.netstandard</PackageId>
+        <Description>
+            Conversion of the Blinkenlights.Bspline package https://bitbucket.org/pgrebenc/b-spline from net4.6 to netstandard1.0
+            For more information see https://github.com/Pulsar-Photonics/Blinkenlights.Bspline.netstandard
+        </Description>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/Pulsar-Photonics/Blinkenlights.Bspline.netstandard/main/LICENSE</PackageLicenseUrl>
+        <Title>Blinkenlights.Bspline.netstandard</Title>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/Pulsar-Photonics/Blinkenlights.Bspline.netstandard</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/Pulsar-Photonics/Blinkenlights.Bspline.netstandard</PackageProjectUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0"/>
+        <PackageReference Include="NUnit" Version="3.13.3"/>
+        <PackageReference Include="NUnit3TestAdapter" Version="4.4.2"/>
+        <PackageReference Include="NUnit.Analyzers" Version="3.6.1"/>
+        <PackageReference Include="coverlet.collector" Version="3.2.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Blinkenlights.Splines\Blinkenlights.Splines.csproj"/>
+    </ItemGroup>
+
+</Project>

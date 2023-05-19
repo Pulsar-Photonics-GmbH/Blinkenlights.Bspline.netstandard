@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blinkenlights.Splines", "Blinkenlights.Splines\Blinkenlights.Splines.csproj", "{99DA89DE-7DDC-433A-81F7-477A08F3CACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blinkenlights.Splines.Tests", "Blinkenlights.Splines.Tests\Blinkenlights.Splines.Tests.csproj", "{6300016A-5A42-463B-91D0-0F3D8F3D6B30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99DA89DE-7DDC-433A-81F7-477A08F3CACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99DA89DE-7DDC-433A-81F7-477A08F3CACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99DA89DE-7DDC-433A-81F7-477A08F3CACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99DA89DE-7DDC-433A-81F7-477A08F3CACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6300016A-5A42-463B-91D0-0F3D8F3D6B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6300016A-5A42-463B-91D0-0F3D8F3D6B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6300016A-5A42-463B-91D0-0F3D8F3D6B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6300016A-5A42-463B-91D0-0F3D8F3D6B30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
