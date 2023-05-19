@@ -5,4 +5,17 @@
         <TargetFramework>netstandard1.0</TargetFramework>
     </PropertyGroup>
 
+    <PropertyGroup>
+        <PackageId>Pulsar.Blinkenlights.BSpline.netstandard</PackageId>
+        <Description>
+            Conversion of the Blinkenlights.BSpline package https://bitbucket.org/pgrebenc/b-spline from net4.6 to netstandard1.0
+            For more information see https://github.com/Pulsar-Photonics/Blinkenlights.Bspline.netstandard
+        </Description>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/Pulsar-Photonics/Blinkenlights.Bspline.netstandard/main/LICENSE</PackageLicenseUrl>
+        <Title>Pulsar Blinkenlights-Bspline for netstandard</Title>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/Pulsar-Photonics/Blinkenlights.Bspline.netstandard</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/Pulsar-Photonics/Blinkenlights.Bspline.netstandard</PackageProjectUrl>
+    </PropertyGroup>
+
 </Project>
