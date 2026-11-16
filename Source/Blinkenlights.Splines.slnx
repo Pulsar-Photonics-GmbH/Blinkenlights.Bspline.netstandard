@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Blinkenlights.Splines.Tests/Blinkenlights.Splines.Tests.csproj" />
+  <Project Path="Blinkenlights.Splines/Blinkenlights.Splines.csproj" />
+</Solution>
